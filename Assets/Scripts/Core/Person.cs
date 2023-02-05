@@ -1,37 +1,41 @@
-using System;
 using UnityEngine;
+using System;
 
 namespace Core
 {
     public class Person : MonoBehaviour
     {
-        private Gender _gender;
-        private Age _age;
-        private string _id;
+        public Sprite PersonImage { get; private set; }
+        public Gender Gender { get; private set; }
+        public Age Age { get; private set; }
+        public string Name { get; private set; }
+        public string LastName { get; private set; }
+        public string Id { get; private set; }
 
-        public Gender Gender => _gender;
-        public Age Age => _age;
-        public string Id => _id;
-
-        public Person(Gender gender, Age age)
+        public Person(Gender gender, Age age, string name, string lastName)
         {
-            _gender = gender;
-            _age = age;
+            Gender = gender;
+            Age = age;
+            Name = name;
+            LastName = lastName;
 
             CreateId();
         }
 
         public Person(Person settings)
         {
-            _gender = settings._gender;
-            _age = settings._age;
+            PersonImage = settings.PersonImage;
+            Gender = settings.Gender;
+            Age = settings.Age;
+            Name = settings.Name;
+            LastName = settings.LastName;
 
             CreateId();
         }
 
         private void CreateId()
         {
-            _id = new Guid().ToString();
+            Id = new Guid().ToString();
         }
     }
 }
