@@ -1,10 +1,13 @@
 using Leopotam.Ecs;
 using UnityEngine;
+using Settings;
 
 public sealed class GameProcessingEcs : MonoBehaviour
 {
     private EcsWorld _world;
     private EcsSystems _systems;
+
+    [SerializeField] private SettingsProvider _settingsProvider;
 
     private void Awake()
     {
@@ -14,7 +17,9 @@ public sealed class GameProcessingEcs : MonoBehaviour
 
     private void Start()
     {
-        _systems.Init();
+        _systems
+            .Inject(_settingsProvider)
+            .Init();
     }
 
     private void Update()
