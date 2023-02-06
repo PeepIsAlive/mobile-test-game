@@ -12,7 +12,7 @@ namespace Settings
 
         public bool TryCreateNpcImage(string id)
         {
-            if (!_personImages.Any(x => string.IsNullOrEmpty(x.Id) || x.Id == id))
+            if (!_personImages.Any(x => string.IsNullOrEmpty(x.Id)))
                 return false;
 
             foreach (var personSprite in _personImages)
