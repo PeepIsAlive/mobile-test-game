@@ -1,5 +1,6 @@
 using Leopotam.Ecs;
 using Components;
+using Settings;
 using Core;
 
 namespace Systems
@@ -8,6 +9,8 @@ namespace Systems
     {
         private EcsWorld _world;
         private EcsFilter<NpcGenerationComponent> _npcGenerationFilter;
+
+        private SettingsProvider _settingsProvider;
 
         public void Init()
         {
