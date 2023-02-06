@@ -1,6 +1,7 @@
 using Leopotam.Ecs;
 using UnityEngine;
 using Settings;
+using Systems;
 
 public sealed class GameProcessingEcs : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public sealed class GameProcessingEcs : MonoBehaviour
     {
         _systems
             .Inject(_settingsProvider)
+            .Add(new WorldGenerationSystem())
             .Init();
     }
 

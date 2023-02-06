@@ -7,11 +7,11 @@ namespace Settings
     [CreateAssetMenu(menuName = "Settings/Providers/SettingsProvider", fileName = "SettingsProvider", order = 52)]
     public sealed class SettingsProvider : ScriptableObject
     {
-        [field: SerializeField] public List<ScriptableObject> Settings { get; private set; }
+        [SerializeField] private List<ScriptableObject> _settings;
 
         public T GetComponent<T>() where T : ScriptableObject
         {
-            return (T)Settings.FirstOrDefault(x => x is T);
+            return (T)_settings.FirstOrDefault(x => x is T);
         }
     }
 }

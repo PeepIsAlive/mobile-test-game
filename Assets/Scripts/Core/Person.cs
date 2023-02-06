@@ -3,7 +3,7 @@ using System;
 
 namespace Core
 {
-    public class Person : MonoBehaviour
+    public class Person
     {
         public Sprite PersonImage { get; private set; }
         public Gender Gender { get; private set; }
@@ -22,20 +22,9 @@ namespace Core
             CreateId();
         }
 
-        public Person(Person settings)
-        {
-            PersonImage = settings.PersonImage;
-            Gender = settings.Gender;
-            Age = settings.Age;
-            Name = settings.Name;
-            LastName = settings.LastName;
-
-            CreateId();
-        }
-
         private void CreateId()
         {
-            Id = new Guid().ToString();
+            Id = Guid.NewGuid().ToString(); 
         }
     }
 }
