@@ -8,14 +8,14 @@ namespace Settings
     [CreateAssetMenu(menuName = "Settings/PersonSettings", fileName = "PersonSettings", order = 52)]
     public sealed class PersonSettings : ScriptableObject
     {
-        [SerializeField] private List<PersonSprite> _personSettings;
+        [SerializeField] private List<PersonImage> _personImages;
 
         public bool TryCreateNpcImage(string id)
         {
-            if (!_personSettings.Any(x => string.IsNullOrEmpty(x.Id) || x.Id == id))
+            if (!_personImages.Any(x => string.IsNullOrEmpty(x.Id) || x.Id == id))
                 return false;
 
-            foreach (var personSprite in _personSettings)
+            foreach (var personSprite in _personImages)
             {
                 if (!string.IsNullOrEmpty(personSprite.Id))
                     continue;
@@ -29,13 +29,13 @@ namespace Settings
 
         public bool TryGetNpcImage(string id, out Sprite npcImage)
         {
-            npcImage = _personSettings.FirstOrDefault(x => x.Id == id).Sprite;
+            npcImage = _personImages.FirstOrDefault(x => x.Id == id).Sprite;
 
-            return npcImage != default ? true : false;
+            return npcImage != default;
         }
 
         [Serializable]
-        public class PersonSprite
+        public sealed class PersonImage
         {
             public Sprite Sprite;
             public string Id;
