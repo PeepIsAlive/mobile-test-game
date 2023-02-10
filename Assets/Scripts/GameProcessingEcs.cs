@@ -20,7 +20,7 @@ public sealed class GameProcessingEcs : MonoBehaviour
     {
         _systems
             .Inject(_settingsProvider)
-            .Add(new WorldGenerationSystem())
+            .Inject(new WorldGenerator(_settingsProvider))
             .Init();
     }
 
