@@ -1,11 +1,10 @@
-using UnityEngine;
 using System;
 
 namespace Core
 {
     public class Person
     {
-        public Sprite PersonImage { get; private set; }
+        public string PersonImageId { get; private set; }
         public Gender Gender { get; private set; }
         public Age Age { get; private set; }
         public string Name { get; private set; }

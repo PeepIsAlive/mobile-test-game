@@ -10,66 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25f0248ff81b4d2448c363ff9c89ff3f, type: 3}
-  m_Name: PersonSettings
+  m_Name: PersonViewSettings
   m_EditorClassIdentifier: 
-  PersonSprites:
+  _personImages:
   - Sprite: {fileID: 21300000, guid: 1ddfe5673ee5d4fcd90a7f06e4a81569, type: 3}
-    Id: 
+    Id: a93476d6-2fb8-4bfb-9de8-f9ac1fced3a9
   - Sprite: {fileID: 21300000, guid: c64b98248e0df4b32bb6e4e1f7277758, type: 3}
-    Id: 
+    Id: 362cd293-9624-442e-9214-445177530b07
   - Sprite: {fileID: 21300000, guid: 8bc8c544fb44e46ad868874e0bf9a20c, type: 3}
-    Id: 
+    Id: a519fdf9-37ea-4f27-aca4-029c4537d2cc
   - Sprite: {fileID: 21300000, guid: 71ef81b8e9fba40c49b40e1b9c502e43, type: 3}
-    Id: 
+    Id: 063ffef0-61df-4c68-a6d2-926a7900e1e5
   - Sprite: {fileID: 21300000, guid: 17a72937f222240b2941e5f15bea7581, type: 3}
-    Id: 
+    Id: 5d79c0be-ff2e-498a-bc40-639a5ac051cf
   - Sprite: {fileID: 21300000, guid: 3e813a9020fa34fd7ad547d2c1278ec8, type: 3}
-    Id: 
+    Id: 2f1ad934-7bb7-404a-a151-878735d3e536
   - Sprite: {fileID: 21300000, guid: c6eb867796904443a88090cac83cbcf7, type: 3}
-    Id: 
+    Id: 38f2a2bc-ceca-4bad-928a-174d42a8c3cd
   - Sprite: {fileID: 21300000, guid: 493420c46b6c949ee8fd5d20b8f3ec67, type: 3}
-    Id: 
+    Id: 0b833d91-f52f-4c22-a81e-45e431c84996
   - Sprite: {fileID: 21300000, guid: 4a0b473570d1e49fabd302a94bc39771, type: 3}
-    Id: 
+    Id: d31fdad1-5643-4b3a-baa5-189ee5175017
   - Sprite: {fileID: 21300000, guid: 5d4b91350ec7542589e57fbc50c3ff89, type: 3}
-    Id: 
+    Id: a58d1947-329c-406a-ac94-1da775ef9063
   - Sprite: {fileID: 21300000, guid: a9f63645590f94b9ba636f232a8f858f, type: 3}
-    Id: 
+    Id: e50d7638-9d4e-471b-b0dc-ab51def07e76
   - Sprite: {fileID: 21300000, guid: b95f64bf3de0843d896b24ba7704f0ee, type: 3}
-    Id: 
+    Id: 9774f66d-78e9-44c2-a8d3-d40ed95deb2c
   - Sprite: {fileID: 21300000, guid: 8c4db13cf4a394640af5e3524bb96509, type: 3}
-    Id: 
+    Id: 019d7ad4-bf2b-4bcd-bd57-3486c62532b4
   - Sprite: {fileID: 21300000, guid: 7dcfa62f202c54044bb935321e9ff295, type: 3}
-    Id: 
+    Id: aa7a4d0a-3527-4154-ac73-ff3e9693db98
   - Sprite: {fileID: 21300000, guid: 7d276563f4bde41c49f672085722eb76, type: 3}
-    Id: 
+    Id: 312dc369-2e9c-4438-b1c9-fbb08f2162ae
   - Sprite: {fileID: 21300000, guid: 8dd23d8b95b9e40b9803bcbc7546b4fd, type: 3}
-    Id: 
+    Id: 3318e5bf-1f13-4caa-9daa-aef8fc89a59a
   - Sprite: {fileID: 21300000, guid: 8269123ae255a446089ea5dc197d4f0c, type: 3}
-    Id: 
+    Id: 0ef65ef0-d322-46e2-bade-c085ba375d48
   - Sprite: {fileID: 21300000, guid: 04a0e047ea24c4acab83e1b386861423, type: 3}
-    Id: 
+    Id: 2a6edac0-d3f2-4440-82cc-fddf821915d7
   - Sprite: {fileID: 21300000, guid: 7c62962134aed4e4b85c8fd54b81f3a1, type: 3}
-    Id: 
+    Id: 745e14cf-b85e-4d85-9ec7-881a8d44cf2d
   - Sprite: {fileID: 21300000, guid: 9bd434a70a74e41fbaed9a5e9ff6d25b, type: 3}
-    Id: 
+    Id: f631cddd-2464-474c-83b0-b3e4a10732f5
   - Sprite: {fileID: 21300000, guid: 188ddb7e2385f4a7990bf8cc7d5676da, type: 3}
-    Id: 
+    Id: 5f78e010-9cb8-498b-81ac-4d46d7414872
   - Sprite: {fileID: 21300000, guid: 22396fe15688941c4a5a38b45aaab5d9, type: 3}
-    Id: 
+    Id: 588dde13-6474-4473-a4aa-78457833c18e
   - Sprite: {fileID: 21300000, guid: 1f8a482252fff47bf9554f37716ed0ae, type: 3}
-    Id: 
+    Id: 00aa95c5-71e5-4890-8297-5c2abe36c350
   - Sprite: {fileID: 21300000, guid: 744edd5bbb005469e845586be88bb4fa, type: 3}
-    Id: 
+    Id: 80c044a4-a5bb-4ba4-91b3-b51637a337c3
   - Sprite: {fileID: 21300000, guid: d10ff1aa7c6e14fccb547bab35231c31, type: 3}
-    Id: 
+    Id: 9d378620-d6ca-44f6-ba53-0e31dfeaa64f
   - Sprite: {fileID: 21300000, guid: 72fa3be150b314b7996f52b676fdbc2a, type: 3}
-    Id: 
+    Id: 38bdf31f-96fa-4261-8260-c88dfe44fb35
   - Sprite: {fileID: 21300000, guid: 5fd7610e83d924c7b9999b70c489b79b, type: 3}
-    Id: 
+    Id: 86bde937-ddff-447f-a453-c2f5ca3b4986
   - Sprite: {fileID: 21300000, guid: f50c7bcf5e83948f6998522104aaff47, type: 3}
-    Id: 
+    Id: 887e3698-6855-43c7-937c-3ded2dd80fe3
   - Sprite: {fileID: 21300000, guid: 16999640cc74b4b899744f3ba70770c2, type: 3}
-    Id: 
+    Id: 83822841-96a0-406f-a4ee-27c9e84065e3
   - Sprite: {fileID: 21300000, guid: ec1926eda34c34332b9042c0631c0143, type: 3}
-    Id: 
+    Id: 4d9f8342-c154-4b3b-8c23-9393cec21c44
