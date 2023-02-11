@@ -29,17 +29,20 @@ namespace Settings
         [ContextMenu("Reset id")]
         private void SetNewId()
         {
-            _personImages.ForEach(x =>
-            {
-                x.Id = Guid.NewGuid().ToString();
-            });
+            _personImages.ForEach(x => x.SetId());
         }
 
         [Serializable]
         public sealed class PersonImage
         {
-            public Sprite Sprite;
-            public string Id;
+            [field: SerializeField] public Sprite Sprite { get; private set; }
+            [field: SerializeField] public string Id { get; private set; }
+
+            public void SetId()
+            {
+                Id = Guid.NewGuid().ToString();
+            }
+
         }
     }
 }

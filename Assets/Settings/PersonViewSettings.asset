@@ -13,63 +13,63 @@ MonoBehaviour:
   m_Name: PersonViewSettings
   m_EditorClassIdentifier: 
   _personImages:
-  - Sprite: {fileID: 21300000, guid: 1ddfe5673ee5d4fcd90a7f06e4a81569, type: 3}
-    Id: a93476d6-2fb8-4bfb-9de8-f9ac1fced3a9
-  - Sprite: {fileID: 21300000, guid: c64b98248e0df4b32bb6e4e1f7277758, type: 3}
-    Id: 362cd293-9624-442e-9214-445177530b07
-  - Sprite: {fileID: 21300000, guid: 8bc8c544fb44e46ad868874e0bf9a20c, type: 3}
-    Id: a519fdf9-37ea-4f27-aca4-029c4537d2cc
-  - Sprite: {fileID: 21300000, guid: 71ef81b8e9fba40c49b40e1b9c502e43, type: 3}
-    Id: 063ffef0-61df-4c68-a6d2-926a7900e1e5
-  - Sprite: {fileID: 21300000, guid: 17a72937f222240b2941e5f15bea7581, type: 3}
-    Id: 5d79c0be-ff2e-498a-bc40-639a5ac051cf
-  - Sprite: {fileID: 21300000, guid: 3e813a9020fa34fd7ad547d2c1278ec8, type: 3}
-    Id: 2f1ad934-7bb7-404a-a151-878735d3e536
-  - Sprite: {fileID: 21300000, guid: c6eb867796904443a88090cac83cbcf7, type: 3}
-    Id: 38f2a2bc-ceca-4bad-928a-174d42a8c3cd
-  - Sprite: {fileID: 21300000, guid: 493420c46b6c949ee8fd5d20b8f3ec67, type: 3}
-    Id: 0b833d91-f52f-4c22-a81e-45e431c84996
-  - Sprite: {fileID: 21300000, guid: 4a0b473570d1e49fabd302a94bc39771, type: 3}
-    Id: d31fdad1-5643-4b3a-baa5-189ee5175017
-  - Sprite: {fileID: 21300000, guid: 5d4b91350ec7542589e57fbc50c3ff89, type: 3}
-    Id: a58d1947-329c-406a-ac94-1da775ef9063
-  - Sprite: {fileID: 21300000, guid: a9f63645590f94b9ba636f232a8f858f, type: 3}
-    Id: e50d7638-9d4e-471b-b0dc-ab51def07e76
-  - Sprite: {fileID: 21300000, guid: b95f64bf3de0843d896b24ba7704f0ee, type: 3}
-    Id: 9774f66d-78e9-44c2-a8d3-d40ed95deb2c
-  - Sprite: {fileID: 21300000, guid: 8c4db13cf4a394640af5e3524bb96509, type: 3}
-    Id: 019d7ad4-bf2b-4bcd-bd57-3486c62532b4
-  - Sprite: {fileID: 21300000, guid: 7dcfa62f202c54044bb935321e9ff295, type: 3}
-    Id: aa7a4d0a-3527-4154-ac73-ff3e9693db98
-  - Sprite: {fileID: 21300000, guid: 7d276563f4bde41c49f672085722eb76, type: 3}
-    Id: 312dc369-2e9c-4438-b1c9-fbb08f2162ae
-  - Sprite: {fileID: 21300000, guid: 8dd23d8b95b9e40b9803bcbc7546b4fd, type: 3}
-    Id: 3318e5bf-1f13-4caa-9daa-aef8fc89a59a
-  - Sprite: {fileID: 21300000, guid: 8269123ae255a446089ea5dc197d4f0c, type: 3}
-    Id: 0ef65ef0-d322-46e2-bade-c085ba375d48
-  - Sprite: {fileID: 21300000, guid: 04a0e047ea24c4acab83e1b386861423, type: 3}
-    Id: 2a6edac0-d3f2-4440-82cc-fddf821915d7
-  - Sprite: {fileID: 21300000, guid: 7c62962134aed4e4b85c8fd54b81f3a1, type: 3}
-    Id: 745e14cf-b85e-4d85-9ec7-881a8d44cf2d
-  - Sprite: {fileID: 21300000, guid: 9bd434a70a74e41fbaed9a5e9ff6d25b, type: 3}
-    Id: f631cddd-2464-474c-83b0-b3e4a10732f5
-  - Sprite: {fileID: 21300000, guid: 188ddb7e2385f4a7990bf8cc7d5676da, type: 3}
-    Id: 5f78e010-9cb8-498b-81ac-4d46d7414872
-  - Sprite: {fileID: 21300000, guid: 22396fe15688941c4a5a38b45aaab5d9, type: 3}
-    Id: 588dde13-6474-4473-a4aa-78457833c18e
-  - Sprite: {fileID: 21300000, guid: 1f8a482252fff47bf9554f37716ed0ae, type: 3}
-    Id: 00aa95c5-71e5-4890-8297-5c2abe36c350
-  - Sprite: {fileID: 21300000, guid: 744edd5bbb005469e845586be88bb4fa, type: 3}
-    Id: 80c044a4-a5bb-4ba4-91b3-b51637a337c3
-  - Sprite: {fileID: 21300000, guid: d10ff1aa7c6e14fccb547bab35231c31, type: 3}
-    Id: 9d378620-d6ca-44f6-ba53-0e31dfeaa64f
-  - Sprite: {fileID: 21300000, guid: 72fa3be150b314b7996f52b676fdbc2a, type: 3}
-    Id: 38bdf31f-96fa-4261-8260-c88dfe44fb35
-  - Sprite: {fileID: 21300000, guid: 5fd7610e83d924c7b9999b70c489b79b, type: 3}
-    Id: 86bde937-ddff-447f-a453-c2f5ca3b4986
-  - Sprite: {fileID: 21300000, guid: f50c7bcf5e83948f6998522104aaff47, type: 3}
-    Id: 887e3698-6855-43c7-937c-3ded2dd80fe3
-  - Sprite: {fileID: 21300000, guid: 16999640cc74b4b899744f3ba70770c2, type: 3}
-    Id: 83822841-96a0-406f-a4ee-27c9e84065e3
-  - Sprite: {fileID: 21300000, guid: ec1926eda34c34332b9042c0631c0143, type: 3}
-    Id: 4d9f8342-c154-4b3b-8c23-9393cec21c44
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 3cad3b66-727c-44af-a83d-e145fc1bef42
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 42ec02b3-9521-49f1-a130-4a22c0b06e56
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 9267a725-6ac5-464e-a646-f935238149b3
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: f9ddbdca-93fe-4dc1-8183-45ee898011e9
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 097f10d9-9e0c-4044-b158-676b77371a15
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 28f9a197-8be9-43b3-ba1e-6d4a3392aa03
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: b471d244-60e5-4d9d-84d9-ad018e1d731a
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: c88896e0-97e1-4aed-8d32-30474a02267f
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: bd7d7480-c8eb-44cd-805b-27acb23d9a52
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 4a146d43-2c30-4d1b-99b1-dc8b72c2ab52
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 90a7a399-bdb9-4cea-838a-3d3d6d35af86
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 5b8b82fe-021e-41cd-a549-08ee32f4682c
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 39af1d55-ef52-40ec-a6cc-e26cd8fc44d6
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: f3f701ae-442b-466c-8e62-5c0337bd3bea
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 3165ac89-1c47-426a-ac36-e7888c09335e
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: bb3620b6-5e23-4395-aa34-ccd5187bc000
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 0f2e76d7-5111-49f2-be4a-4676cf4ee9dd
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: c306576e-a41b-412b-81cc-f5dac88de08e
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 4d183872-070a-48a5-83da-c7c40747c5d7
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 254c6ed1-384d-4c0f-863a-8c89319bcf40
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: fb9b0534-cb99-4e09-9574-04ad62ba5802
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 6e2adde3-0455-4c0e-84e2-3405fdc4cd82
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: dd70294f-c0b7-4532-8c00-88cc9bce35a1
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 14aa8862-1c83-479f-963f-0546a9352a35
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 2bf1f34b-f388-411f-8150-5c460c777c85
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 09a33f99-6230-4de6-a096-7b3325bf75d4
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: bc13f26f-8b0b-47c9-ba16-301f6dd18a74
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 07327fd3-d5f3-448b-add0-015363beeb7c
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: 6b06b8e2-02a4-478c-801d-fd664a1cd383
+  - <Sprite>k__BackingField: {fileID: 0}
+    <Id>k__BackingField: eefd8b69-ead3-46a3-9017-b6c9e6e3ee67
