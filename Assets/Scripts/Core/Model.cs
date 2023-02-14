@@ -5,7 +5,7 @@ namespace Core
 {
     public sealed class Model : IEcsSystem
     {
-        public List<EcsEntity> GetEntities<T>(EcsFilter<T> filter) where T : struct
+        private List<EcsEntity> GetEntities<T>(EcsFilter<T> filter) where T : struct
         {
             var result = new List<EcsEntity>();
 
