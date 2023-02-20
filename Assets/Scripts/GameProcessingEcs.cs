@@ -1,7 +1,7 @@
 using Leopotam.Ecs;
 using UnityEngine;
+using Generator;
 using Settings;
-using Systems;
 
 public sealed class GameProcessingEcs : MonoBehaviour
 {
