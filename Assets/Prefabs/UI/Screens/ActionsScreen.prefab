@@ -116,8 +116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 40
-    m_Right: 40
+    m_Left: 10
+    m_Right: 10
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
@@ -882,6 +882,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca040601851bf949a4a69e0ae9ad00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _content: {fileID: 502626401490728785}
+  _npcButton: {fileID: 0}
 --- !u!114 &1249033132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -894,6 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0e001a397c3cae4d919d03eb8041844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _view: {fileID: 1249033133}
 --- !u!1 &3148425789178682631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1072,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3993688387474222012, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
+      propertyPath: m_MinHeight
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993688387474222012, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
+      propertyPath: m_PreferredHeight
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993688387935007913, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
+      propertyPath: m_fontSize
+      value: 63
+      objectReference: {fileID: 0}
     - target: {fileID: 3993688388052458055, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1118,8 +1133,16 @@ PrefabInstance:
       value: -110
       objectReference: {fileID: 0}
     - target: {fileID: 3993688388278521242, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993688388278521242, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
       propertyPath: m_SizeDelta.y
       value: 145
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993688388278521242, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 3993688388278521243, guid: ea69c1cd737a8e846825eb5f68dca645, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
