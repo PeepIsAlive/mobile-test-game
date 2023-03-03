@@ -2,7 +2,7 @@ using Components;
 using Settings;
 using Core;
 
-namespace Systems
+namespace Generator
 {
     public sealed class WorldGenerator
     {
